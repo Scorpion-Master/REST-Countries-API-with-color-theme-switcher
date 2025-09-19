@@ -2,6 +2,8 @@
   command = "npm install && npm run build"
   publish = "dist"
   base = "/"
+  node_version = "20.19.0"
+
   ignore = "false"  # Never skip build
   force = "true"    # Force build even if no changes detected
 
